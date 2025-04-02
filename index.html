@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> سيرتي </title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">سيرتي</div>
+            <div class="nav-links">
+                <a href="#home">الرئيسية</a>
+                <a href="#about">عني</a>
+                <a href="#skills">المهارات</a>
+                <a href="#experience">الخبرات</a>
+                <a href="#projects">المشاريع</a>
+                <a href="#contact">اتصل بي</a>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-text">
+                    <h1>مرحباً، أنا محمد أحمد</h1>
+                    <p>مطور ويب و تطبيقات موبايل </p>
+                    <p> - الدولة : اليمن<br>
+                        - تاريخ الميلاد :2003-05-01
+                        <br> - الإقامة : صنعاء
+                    </p>
+                </div>
+                <div class="hero-image">
+                    <img src="images/s.jpg" alt="صورة شخصية" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up"> عني</h2>
+            <div class="about-content">
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-code"></i>
+                    <p></p>
+
+                </div>
+                <!-- <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-paint-brush"></i>
+                <h3>تصميم المواقع</h3>
+                <p>خبرة في تصميم واجهات المستخدم الجذابة والسهلة الاستخدام مثل Figma أو Adobe XD</p>
+            </div>
+            <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>تطوير تطبيقات الموبايل</h3>
+                <p>تطوير تطبيقات الهواتف الذكية باستخدام التقنيات الحديثة باستخدام Flutter and Dart</p>
+            </div> -->
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up"> المهارات التقنية</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>HTML5</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>CSS3</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>JavaScript</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>USING AI</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Begging with PHP </h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Flutter and Dart </h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Java </h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Sql server - MySql </h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">المهارات</h2>
+            <div class="about-content">
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-code"></i>
+                    <h3>تطوير الويب</h3>
+                    <p> تطوير مواقع الويب باستخدام أحدث التقنيات مثل JavaScript , Html , CSS , React JS</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>تصميم المواقع</h3>
+                    <p> تصميم واجهات المستخدم الجذابة والسهلة الاستخدام مثل Figma أو Adobe XD</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>تطوير تطبيقات الموبايل</h3>
+                    <p>تطوير تطبيقات الهواتف الذكية باستخدام التقنيات الحديثة باستخدام Flutter and Dart</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">الخبرات</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <h3>متدرب</h3>
+                    <p>شركة وايتك التقنية </p>
+                    <span>2023 - 2024</span>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <h3>متدرب</h3>
+                    <p>شركة مو التقنية </p>
+                    <span>الأن - 2024 </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">المشاريع</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://picsum.photos/400/200?random=2" alt="Persol" class="project-img">
+                    <div class="project-info">
+                        <h3>Persol</h3>
+                        <p>وصف المشروع الأول</p>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://picsum.photos/400/200?random=3" alt="مشروع 2" class="project-img">
+                    <div class="project-info">
+                        <h3>مشروع 2</h3>
+                        <p>وصف المشروع الثاني</p>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://picsum.photos/400/200?random=4" alt="مشروع 3" class="project-img">
+                    <div class="project-info">
+                        <h3>مشروع 3</h3>
+                        <p>وصف المشروع الثالث</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">اتصل بي</h2>
+            <form class="contact-form" data-aos="fade-up">
+                <div class="form-group">
+                    <label for="name">الاسم</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">الرسالة</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">إرسال</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2024 جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
