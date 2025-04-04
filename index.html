@@ -37,7 +37,7 @@
             <div class="hero-content" data-aos="fade-up">
                 <div class="hero-text">
                     <h1>مرحباً، أنا محمد أحمد</h1>
-                    <p>مطور ويب و تطبيقات موبايل </p>
+                    <p>مطور ويب (Frontend Developer) </p>
                     <p> - الدولة : اليمن<br>
                         - تاريخ الميلاد :2003-05-01
                         <br> - الإقامة : صنعاء
@@ -55,8 +55,12 @@
             <h2 class="section-title" data-aos="fade-up"> عني</h2>
             <div class="about-content">
                 <div class="about-card" data-aos="fade-up" data-aos-delay="100">
-                    <i class="fas fa-code"></i>
-                    <p></p>
+                    <i class="fas fa-info"></i>
+                    <h2>مرحبًا! أنا محمد الحوري 
+                        ، مطور واجهة أمامية (Frontend Developer) متخصص في تصميم وتطوير مواقع  ويب تفاعلية
+                    باستخدام أحدث التقنيات مثل HTML5، CSS3، و JavaScript . لدي خبرة متوسطة في بناء واجهات مستخدم سلسة
+                    وأداءً عاليًا. أطمح إلى المساهمة في تحسين تجربة المستخدم الرقمية وتحقيق حلول مبتكرة تعزز من قيمة المنتجات الرقمية. خارج
+                    العمل، أستمتع بتعلم تقنيات جديدة واستكشاف عالم الذكاء الاصطناعي.</h2>
 
                 </div>
                 <!-- <div class="about-card" data-aos="fade-up" data-aos-delay="200">
@@ -174,24 +178,24 @@
             <h2 class="section-title" data-aos="fade-up">المشاريع</h2>
             <div class="projects-grid">
                 <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-                    <img src="https://picsum.photos/400/200?random=2" alt="Persol" class="project-img">
+                    <img src="images/cv-webstie.png" alt="CV-website" class="project-img">
                     <div class="project-info">
-                        <h3>Persol</h3>
-                        <p>وصف المشروع الأول</p>
+                        <h3>CV-website</h3>
+                        <p>موقع يعرض السيرة الذاتيه </p>
                     </div>
                 </div>
                 <div class="project-card" data-aos="fade-up" data-aos-delay="200">
-                    <img src="https://picsum.photos/400/200?random=3" alt="مشروع 2" class="project-img">
+                    <img src="images/ExamScoretracker.png" alt="ExamScoretracker" class="project-img">
                     <div class="project-info">
-                        <h3>مشروع 2</h3>
-                        <p>وصف المشروع الثاني</p>
+                        <h3>ExamScoreTracker</h3>
+                        <p>عبارة عن نظام لتصحيح الاختبارات </p>
                     </div>
                 </div>
                 <div class="project-card" data-aos="fade-up" data-aos-delay="300">
-                    <img src="https://picsum.photos/400/200?random=4" alt="مشروع 3" class="project-img">
+                    <img src="images/online-store.png" alt="online-store" class="project-img">
                     <div class="project-info">
-                        <h3>مشروع 3</h3>
-                        <p>وصف المشروع الثالث</p>
+                        <h3>online-store</h3>
+                        <p> عبارة عن متجر للبيع العسل </p>
                     </div>
                 </div>
             </div>
@@ -201,20 +205,21 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">اتصل بي</h2>
-            <form class="contact-form" data-aos="fade-up">
+            <form id="contactForm" method="POST" class="contact-form" data-aos="fade-up">
                 <div class="form-group">
                     <label for="name">الاسم</label>
-                    <input type="text" id="name" required>
+                    <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
                     <label for="email">البريد الإلكتروني</label>
-                    <input type="email" id="email" required>
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
                     <label for="message">الرسالة</label>
-                    <textarea id="message" rows="5" required></textarea>
+                    <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
                 <button type="submit" class="submit-btn">إرسال</button>
+                
             </form>
         </div>
     </section>
@@ -222,16 +227,20 @@
     <footer>
         <div class="container">
             <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
+                <a
+                    href="https://www.linkedin.com/in/mohamed-alhori-182332342"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/MohammedAlhori1"><i class="fab fa-github"></i></a>
             </div>
-            <p>&copy; 2024 جميع الحقوق محفوظة</p>
+            <!-- <p>&copy; لدر 2024 جميع الحقوق محفوظة</p> -->
         </div>
     </footer>
 
     <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/email.js"></script>
+
 </body>
 
 </html>

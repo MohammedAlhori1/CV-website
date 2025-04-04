@@ -1,17 +1,17 @@
 :root {
-  --primary-color: #0984e3;
-  --bg-color: #f0f2f5;
-  --text-color: #2d3436;
-  --card-bg: #ffffff;
-  --shadow-color: rgba(0, 0, 0, 0.1);
-}
-
-.dark-mode {
   --primary-color: #74b9ff;
   --bg-color: #1a1a1a;
   --text-color: #ffffff;
   --card-bg: #2d2d2d;
   --shadow-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode {
+  --primary-color: #0984e3;
+  --bg-color: #f0f2f5;
+  --text-color: #2d3436;
+  --card-bg: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -398,5 +398,15 @@ footer {
   .timeline-item::after {
     right: 21px !important;
     left: auto !important;
+  }
+
+  #confirmationMessage {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    border-radius: 5px;
   }
 }
